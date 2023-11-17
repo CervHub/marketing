@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/soruce/fondo_Mesa\ de\ trabajo\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 40px;
+    padding: 50px 50px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.social-link {
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover .icon {
+    transform: rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.celeste {
+    background-color: #0075B3;
+}
+
+.azul {
+    background-color: #424B9B;
+}
+
+.negro {
+    background-color: #000000;
+}
+
+.rosa {
+    background-color: #D33289;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}
